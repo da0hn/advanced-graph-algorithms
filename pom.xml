@@ -11,6 +11,7 @@
     <modules>
         <module>graph-theory-overview</module>
         <module>breadth-first-search</module>
+        <module>depth-first-search</module>
     </modules>
 
     <properties>
