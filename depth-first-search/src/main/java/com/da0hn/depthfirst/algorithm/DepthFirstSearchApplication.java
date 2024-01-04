@@ -1,6 +1,5 @@
-package com.da0hn;
+package com.da0hn.depthfirst.algorithm;
 
-import com.da0hn.depthfirst.algorithm.Vertex;
 import com.da0hn.depthfirst.algorithm.iteration.IterativeDepthFirstSearch;
 import com.da0hn.depthfirst.algorithm.recursive.RecursiveDepthFirstSearch;
 
