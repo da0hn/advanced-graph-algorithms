@@ -1,4 +1,4 @@
-package com.da0hn;
+package com.da0hn.breadthfirst.algorithm;
 
 import java.util.LinkedList;
 import java.util.Queue;
