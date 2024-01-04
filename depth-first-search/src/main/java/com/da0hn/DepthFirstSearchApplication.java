@@ -2,6 +2,7 @@ package com.da0hn;
 
 import com.da0hn.depthfirst.algorithm.Vertex;
 import com.da0hn.depthfirst.algorithm.iteration.IterativeDepthFirstSearch;
+import com.da0hn.depthfirst.algorithm.recursive.RecursiveDepthFirstSearch;
 
 import java.util.List;
 
@@ -25,7 +26,15 @@ public final class DepthFirstSearchApplication {
     g.addNeighbour(f);
     h.addNeighbour(f).addNeighbour(e).addNeighbour(g);
 
-    new IterativeDepthFirstSearch().printAll(List.of(a, c));
+    final var iterativeDepthFirstSearch = new IterativeDepthFirstSearch();
+
+    iterativeDepthFirstSearch.printAll(List.of(a, c));
+    iterativeDepthFirstSearch.resetAll(List.of(a, c));
+
+    System.out.println("======================================");
+
+    final var recursiveDepthFirstSearch = new RecursiveDepthFirstSearch();
+    recursiveDepthFirstSearch.printAll(List.of(a, c));
 
   }
 

@@ -35,8 +35,16 @@ public class Vertex {
     return !this.visited;
   }
 
+  public boolean isVisited() {
+    return this.visited;
+  }
+
   public void visited() {
     this.visited = true;
+  }
+
+  public void unvisited() {
+    this.visited = false;
   }
 
   @Override
