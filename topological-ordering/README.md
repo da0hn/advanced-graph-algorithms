@@ -11,4 +11,4 @@
 * Its crucial in project management and in finding `Hamiltonian Paths` and cycles.
 * Hamiltonian path in a `G(V, E)` graphs visits every vertex exactly once.
 * If a Hamiltonian path exists then the topological sort is unique.
-* 
+* If a Hamiltonian path does not exist then there are multiple topological sorts.
